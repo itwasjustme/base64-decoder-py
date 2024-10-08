@@ -2,7 +2,7 @@
 
 import base64
 
-encoded_text = 'UUc3NUhZVDg='  # use type in your encoded text
+encoded_text = input('Enter encoded code: ')  # use type in your encoded text
 
 decoded_byte = base64.b64decode(encoded_text)
 
